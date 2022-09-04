@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+  nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+@keyframes neon {
+  0%, 39%, 41%, 59%, 61%, 100% {
+       text-shadow: 
+       white 0 0 12px,
+       #94a3f8 0 0 24px,
+       #e1dfeb 0 0 36px;
+  }
+  40%, 60% {
+       text-shadow: none;
+  }
+}
