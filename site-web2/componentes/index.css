@@ -19,11 +19,12 @@ html {
 }
 
 .bg {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/componentes/foto/house-1477041.jpg);
-    background-position: center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(96, 96, 96, 1.0)), url(./foto/house-1477041.jpg);
+    background-position: center;
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
+    
 }
 
 /* Menu - Header - NavBar */
@@ -35,6 +36,7 @@ header {
 }
 
 .menu-content {
+    
     text-transform: uppercase;
     height: 100%;
     display: flex;
@@ -44,7 +46,8 @@ header {
 }
 
 .logo {
-    font-size: 1.8rem;
+    position: initial;
+    font-size: 2.0rem;
     letter-spacing: 0.4rem;
     cursor: pointer;
     animation: neon 5s infinite;
@@ -156,3 +159,14 @@ main {
     width: 100%;
 
 }
+#sectest {
+    background-position: center;
+    background-size: cover;
+
+    color: black;
+   
+}
+h1 {
+    font-size: 50px;
+}
+
